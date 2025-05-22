@@ -9,5 +9,6 @@ public class CharExample {
         System.out.printf("67: %c, %d\n", 66, 67);
 
         char ch2 =68;
+        char ch3 =68;
     }
 }
