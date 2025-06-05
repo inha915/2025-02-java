@@ -9,7 +9,7 @@ public class Mission01 {
         for(int i=0 ; i < args.length; i++){
             num = Integer.parseInt(args[i]);
             sum += num;
-            //테스트1
+            //테스트
         }
         System.out.println(sum);
     }
