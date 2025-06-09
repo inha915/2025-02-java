@@ -22,8 +22,8 @@ public class ArrayShuffleMethod {
 
     }
     public static void shuffleArray(int[] arr){
-        int ran =(int)(Math.random()*arr.length);
         for(int i=0; i<arr.length; i++){
+            int ran =(int)(Math.random()*arr.length);
             int temp =arr[ran];
             arr[ran] =arr[i];
             arr[i]=temp;
