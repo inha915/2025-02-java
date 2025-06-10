@@ -20,9 +20,9 @@ public class Car {
     public Car(){
 
     }
-    public Car(int n1, int n2){
-        this.gas = n1;
-        this.oil = n2;
+    public Car(int gas, int oil){
+        this.gas = gas;
+        this.oil = oil;
     }
 
 
