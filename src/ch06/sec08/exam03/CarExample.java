@@ -9,5 +9,11 @@ public class CarExample {
 
         int car1Gas = car1.getGas();
         System.out.println("car1Gas: "+ car1Gas);
+        System.out.println("car1Oil: "+ car1.getOil());
+
+        System.out.println("-----------------");
+        Car car2 = new Car(); // gas=30, oil=40;
+        System.out.println(car2.getGas()); //30
+        System.out.println(car2.getOil()); //30
     }
 }

@@ -17,6 +17,14 @@ public class Car {
     private int gas; //private 멤버 필드
     private int oil;
 
+    public Car(){
+
+    }
+    public Car(int n1, int n2){
+        this.gas = n1;
+        this.oil = n2;
+    }
+
 
     public  void setGas(int i) {
         System.out.println(i);
