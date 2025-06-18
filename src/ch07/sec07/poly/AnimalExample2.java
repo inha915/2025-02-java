@@ -1,4 +1,4 @@
-package ch07.sec07.exam02.poly;
+package ch07.sec07.poly;
 
 public class AnimalExample2 {
     public static void main(String[] args) {
