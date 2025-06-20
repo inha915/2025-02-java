@@ -11,6 +11,7 @@ public class Bus implements Vehicle{
     public void stop() {
         System.out.println("버스가 멈춘다");
     }
+
     public void openBackDoor(){
         System.out.println("버스 뒷 문이 열린다");
     }

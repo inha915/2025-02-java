@@ -4,11 +4,15 @@ public class Taxi implements Vehicle{
 
     @Override
     public void run() {
-
+        System.out.println("택시가 달린다");
     }
 
     @Override
     public void stop() {
+        System.out.println("버스가 멈춘다");
+    }
 
+    public void load(String luggage) {
+        System.out.printf("택시 트렁크에 %s를 싣는다\n", luggage);
     }
 }
